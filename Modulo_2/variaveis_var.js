@@ -1,5 +1,5 @@
 //var: Pode ser declarada com um determinado valor, que pode ser substituido ao longo do código. Pode ser usada sem ser declarada.
-
+//Não é muiuto utilizada pois pode gerar bugs em códigos mais complexos
 var altura = 5;
 var comprimento = 7;
 //É possível declarar a variável sem a var na frente pois o js entende que é uma var, mas isso não é uma boa prática.
@@ -21,7 +21,7 @@ if (forma == 'retangulo') {
 
 console.log('Teste com declaração let: '+ areaL);
 
-//const
+//const: É uma constante, ou seja, não pode ser declarada sem valor, precisa ser declarada com um valor, que NÃO é alterado ao longo do código.
 
 const formaC = 'quadrado';
 const alturaC = 5;
@@ -34,4 +34,4 @@ if (formaC == 'quadrado') {
 }
 
 console.log('Teste com declaração const: '+ areaC);
-
+bananinha amassada
