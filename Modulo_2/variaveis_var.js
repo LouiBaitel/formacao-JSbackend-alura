@@ -34,4 +34,4 @@ if (formaC == 'quadrado') {
 }
 
 console.log('Teste com declaração const: '+ areaC);
-bananinha amassada
+
