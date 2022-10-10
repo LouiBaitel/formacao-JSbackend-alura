@@ -16,3 +16,11 @@ console.log(typeof texto);
 Number();
 String();
 toString();
+
+/*
+||: Operador “ou”, retorna true caso uma condição seja válida;
+&&: Operador “e”, retorna true somente se todas as condições forem válidas;
+!= e !==: Operadores “não igual” e “estritamente não igual”.
+
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
+*/
