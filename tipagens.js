@@ -23,3 +23,10 @@ O tipo é determinado (inferido) em runtime (ou tempo de execução) de acordo c
 Linguagens estaticamente tipadas têm uma performance de execução melhor, pois durante a execução o código já foi “traduzido” para linguagem máquina e a checagem/tipagem das variáveis já foi feito;
 As  linguagens dinamicamente tipadas costumam ser mais ágeis durante o desenvolvimento e também são mais flexíveis.
 */
+
+/*
+High order functions são funções que recebem uma função ou mais como argumento, retornando outra função;
+Isso permite a composição de funções, ou seja, ter funções pequenas que compõem outras funções maiores;
+funções que são chamadas dentro de outra são chamadas callback functions, pois são “called back” (“chamadas de volta” em uma tradução livre) dentro da função onde estão compostas.
+Alguns dos métodos mais modernos de array do JavaScript, como map(), forEach(), filter e reduce(), entre outros, utilizam o conceito de callback functions em sua sintaxe.
+*/
